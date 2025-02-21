@@ -6,13 +6,13 @@ import {
 } from "@aws-sdk/client-s3";
 
 const Bucket = "cloudcomputingproject2025";
-const s3 = new S3Client({
-    region: 'us-east-1',
-    credentials: {
-        accessKeyId: "",
-        secretAccessKey: ""
-    }
-})
+// const s3 = new S3Client({
+//     region: 'us-east-1',
+//     credentials: {
+//         // accessKeyId: "",
+//         // secretAccessKey: ""
+//     }
+// })
 
 export async function POST(request: NextRequest) {
     const formData = await request.formData();
