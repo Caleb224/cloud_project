@@ -9,8 +9,8 @@ const Bucket = "cloudcomputingproject2025";
 const s3 = new S3Client({
     region: 'us-east-1',
     credentials: {
-        accessKeyId: "AKIA5WXWYDF4ATFPC3RG",
-        secretAccessKey: "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"
+        accessKeyId: "",
+        secretAccessKey: ""
     }
 })
 
